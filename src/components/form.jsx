@@ -7,6 +7,23 @@ function Form() {
   const [outstation,setoutstation] = useState(true);
   const [airport,setairport] = useState(false);
   const [local,setlocal] = useState(false);
+  const changeState = (state)=>{
+    if(state==='outstation'){
+      setoutstation(true)
+      setairport(false)
+      setlocal(false)
+    }
+    else if(state==='local'){
+      setoutstation(false)
+      setairport(false)
+      setlocal(true)
+    }
+    else if(state==='airport'){
+      setoutstation(false)
+      setairport(true)
+      setlocal(false)
+    }
+  }
   return (
     <div className='header-form'>
      
@@ -15,15 +32,22 @@ function Form() {
         </h1>
         <div className='form-container'>
             <div className='button-types'>
-              <button>Outstation</button>
-              <button>Local</button>
-              <button>Airport</button>
+              <button className={outstation ? "alter" : ""} onClick={()=>changeState("outstation")}>Outstation</button>
+              <button className={local ? "alter" : ""} onClick={()=>changeState("local")}>Local</button>
+              <button className={airport ? "alter" : ""} onClick={()=>changeState("airport")}>Airport</button>
             </div>
             <div>
               {
                
-                <Outstation/>
+               (outstation && <Outstation/>)
                 
+              }
+              {
+                   (local && <Local/>)
+                  
+              }
+              {
+                 (airport && <Airport/>)
               }
               
             </div>

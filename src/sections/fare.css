@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
     position: absolute;
     left:39px;
@@ -8,6 +8,7 @@
 .fare-info{
     display: flex;
     flex-direction:column;
+    justify-content: center;
     align-items: center;
     width:405.85px;
     height:240px;

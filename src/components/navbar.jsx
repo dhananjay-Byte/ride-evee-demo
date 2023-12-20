@@ -14,10 +14,6 @@ function Navbar() {
                     <li style={{width:'108px',height:'57.94px'}}>
                         <img src='download.png' alt='download logo'/>
                     </li>
-                    <li style={{width:'108px',height:'57.94px'}}>
-                        <img src='profile.png' alt='profile logo'/>
-                    </li>
-
                 </div>
             </ul>
         </div>

@@ -17,6 +17,7 @@
 }
 .airport-input{
     width:1050px;
+    margin-left:25px;
 }
 .airport-input > input{
     width: 727px;

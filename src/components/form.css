@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     height: 452px;
-    background-image: url('header-bg.png');
+    background: url('header-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -70,7 +70,7 @@
     background: #38B000;
 }
 
-.alternate-colors{
+ .button-types .alter{
     color: white;
     background: #38B000;
 }
