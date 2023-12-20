@@ -1,0 +1,22 @@
+.navbar-container{
+    height: 70px;
+    border:2px solid black;
+}
+
+.navbar-container > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height:65px;
+    width:195.54px;
+    border-radius:10px;
+}
+.right-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:39px;
+}
+.fare-info{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width:405.85px;
+    height:240px;
+    gap:20px;
+    font-size:15px;
+    font-weight:400;
+}
+
+.car{
+    width:395.79px;
+    height: 213.03px;
+}
+
+.info{
+display: flex;
+justify-content: center;
+width:450px;
+align-items: center;
+}

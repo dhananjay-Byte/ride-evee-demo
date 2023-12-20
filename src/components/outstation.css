@@ -1,0 +1,32 @@
+.inputs{
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+.trip{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top:10px;
+}
+.trip button{
+    width:123px;
+    height:24.66px;
+    border: 1px solid black;
+    border-radius:5px;
+    background-color:white;
+    color: #A0A0A0;
+    font-size:12px;
+    cursor: pointer;
+}
+.inputs{
+    margin-top:30px;
+    margin-bottom:20px;
+    width:1050px;
+}
+.inputs input{
+    width:209.82px;
+    border: none;
+    border-bottom:1px solid black;
+    margin-top:10px;
+}

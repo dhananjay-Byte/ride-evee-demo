@@ -1,0 +1,76 @@
+.header-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 452px;
+    background-image: url('header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-title {
+    color: white;
+    width: 1000px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 49px;
+    font-family: Rounded Mplus 1c;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+
+}
+
+.form-container {
+    background-color: white;
+    position: absolute;
+    width: 1151px;
+    height: 221px;
+    top: 174px;
+    border-radius: 13px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.button-types{
+    display: flex;
+    gap:30px;
+}
+.button-types button{
+    width:180px;
+    height:40.64px;
+    text-decoration: none;
+    background-color:white;
+    border:none;
+    border: 1px solid black;
+    border-radius:5px;
+    cursor: pointer;
+    font-size:17px;
+    font-weight:700;
+    color:#A0A0A0;
+}
+
+.explore button{
+    width:263px;
+    font-size: 20px;
+    font-weight:700;
+    border:none;
+    border: 1px solid black;
+    border-radius:5px;
+    cursor: pointer;
+    color: white;
+    background: #38B000;
+}
+
+.alternate-colors{
+    color: white;
+    background: #38B000;
+}

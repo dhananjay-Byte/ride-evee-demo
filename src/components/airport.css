@@ -1,0 +1,25 @@
+.inputs{
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+
+.inputs{
+    margin-top:30px;
+    margin-bottom:20px;
+    width:1050px;
+}
+.inputs > input{
+    width:312.5px;
+    border: none;
+    border-bottom:1px solid black;
+    margin-top:10px;
+}
+.airport-input{
+    width:1050px;
+}
+.airport-input > input{
+    width: 727px;
+    border: none;
+    border-bottom:1px solid black;
+}
